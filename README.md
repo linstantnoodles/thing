@@ -1,5 +1,7 @@
 # Thing
 
+[![Build Status](https://travis-ci.org/linstantnoodles/thing.svg?branch=master)](https://travis-ci.org/linstantnoodles/thing)
+
 Just another library to save you a few lines when doing prototypal inheritance. To tell you the truth, the real purpose of this project is to teach myself how to build and release a tested project with CI to NPM and the idea for the library just happened to be on my mind. 
 
 ### Project Setup
