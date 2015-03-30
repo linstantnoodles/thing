@@ -33,5 +33,11 @@ The two fields you definitely need in your `package.json` file are the author an
 npm adduser
 ```
 
-Once you complete account registration, you can check out your user profile on NPM by going to `www.npmjs.com/~<USERNAME>`.
+Once you complete account registration, you can check out your user profile on NPM by going to `www.npmjs.com/~<USERNAME>`. Now, you can publish your NPM package!
+
+```bash
+npm publish
+```
+
+Note: make sure that the combination of the package name and the version `(<name>@<version>)` is **unique** on NPM. You will not be able to publish successfully otherwise. 
 
