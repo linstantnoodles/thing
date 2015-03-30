@@ -27,4 +27,11 @@ To get started, sign up for the free trial and enable the Travis integration wit
 
 ### Publish to NPM
 
+The two fields you definitely need in your `package.json` file are the author and version fields. If you have a solid `package.json`, go ahead and register a user account with the NPM registry. You will be publishing the package under this user. 
+
+```bash
+npm adduser
+```
+
+Once you complete account registration, you can check out your user profile on NPM by going to `www.npmjs.com/~<USERNAME>`.
 
