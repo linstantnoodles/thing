@@ -11,10 +11,12 @@
     "grunt-karma": "^0.10.1",
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
-    "karma-jasmine": "^0.3.5"
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "phantomjs": "^1.9.16"
   },
   "scripts": {
-      "test": "grunt test"
+    "test": "grunt test"
   },
   "author": "Alan Lin",
   "license": "MIT"

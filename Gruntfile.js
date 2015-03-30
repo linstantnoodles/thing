@@ -21,7 +21,7 @@ var gruntInit = function (grunt) {
     unit: {
       options: {
         singleRun: true,
-        browsers: ['Chrome'],
+        browsers: ['PhantomJS'],
         frameworks: ['jasmine'],
         files: [
           '<%= settings.src_dir %>/thing.js',
