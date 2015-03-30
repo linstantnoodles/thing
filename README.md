@@ -4,23 +4,17 @@ Just another library to save you a few lines when doing prototypal inheritance. 
 
 ### Project Setup
 
-$ npm init
-
-$ npm install -g grunt-cli
-
-$ npm install --save-dev grunt
-
-$ npm install --save-dev karma
-
-$ npm install --save-dev grunt-karma
-
-$ npm install --save-dev karma-jasmine
-
-$ npm install --save-dev karma-chrome-launcher
-
-$ npm install --save-dev grunt-contrib-uglify
-
-$ grunt test
+```bash
+npm init
+npm install -g grunt-cli
+npm install --save-dev grunt
+npm install --save-dev karma
+npm install --save-dev grunt-karma
+npm install --save-dev karma-jasmine
+npm install --save-dev karma-chrome-launcher
+npm install --save-dev grunt-contrib-uglify
+grunt test
+```
 
 ### Continuous Integration Setup
 
