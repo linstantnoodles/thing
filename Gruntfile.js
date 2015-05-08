@@ -1,5 +1,6 @@
 var gruntInit = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-bump');
   grunt.loadNpmTasks('grunt-karma');
 
   var config = {
@@ -28,6 +29,21 @@ var gruntInit = function (grunt) {
           '<%= settings.test_dir %>/**/*-spec.js'
         ]
       }
+    }
+  };
+
+  config.bump = {
+    options: {
+      files: ['package.json'],
+      updateConfigs: [],
+      commit: true,
+      commitMessage: 'Release v%VERSION%',
+      commitFiles: ['package.json'],
+      createTag: true,
+      tagName: 'v%VERSION%',
+      tagMessage: 'Version %VERSION%',
+      push: true,
+      pushTo: 'origin',
     }
   };
 

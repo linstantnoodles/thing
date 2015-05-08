@@ -12,6 +12,7 @@ npm install -g grunt-cli
 npm install --save-dev grunt
 npm install --save-dev karma
 npm install --save-dev phantomjs
+npm install --save-dev grunt-bump
 npm install --save-dev grunt-karma
 npm install --save-dev karma-jasmine
 npm install --save-dev karma-phantomjs-launcher
