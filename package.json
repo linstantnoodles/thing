@@ -1,6 +1,6 @@
 {
   "name": "thing-03151991",
-  "version": "1.0.3",
+  "version": "1.0.4-v1.0.3-1-g2789.0",
   "description": "Just another library to save you a few lines when doing prototypal inheritance. To tell you the truth, the real purpose of this project is to teach myself how to build and release a tested project with CI to NPM and the library just happened to fall into the mix simple, useful, and interesting.",
   "main": "thing.js",
   "dependencies": {
