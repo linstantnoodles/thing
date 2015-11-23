@@ -42,6 +42,7 @@ var gruntInit = function (grunt) {
       createTag: true,
       tagName: 'v%VERSION%',
       tagMessage: 'Version %VERSION%',
+      prereleaseName: 'rc',
       push: true,
       pushTo: 'origin',
     }

@@ -42,3 +42,5 @@ npm publish
 
 Note: make sure that the combination of the package name and the version `(<name>@<version>)` is **unique** on NPM. You will not be able to publish successfully otherwise. 
 
+bumped
+
